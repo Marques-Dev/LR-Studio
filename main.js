@@ -32,10 +32,6 @@ function changeHeaderWhenScroll() {
 // Avisar Número Fictício
 const aviso = document.querySelector('#contact a.button')
 
-aviso.addEventListener('click', function () {
-  alert('Esse número não existe, é apenas um número Fictício!')
-})
-
 // Testimonials Swiper Carousel
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
